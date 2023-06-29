@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Madurai' 'Schibsted Grotesk', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #efefef;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px;
+    font-family: 'Schibsted Grotesk';
+}
+
+form {
+    width: 50%;
+    padding: 70px 50px;
+    max-width: 1200px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.login-input {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: #efefef;
+    border: 2px solid #efefef;
+    outline: none;
+}
+
+.login-btn {
+    position: relative;
+    left: 145px;
+    font-size: 15px;
+    background-color: #7296a4;
+    color: #efefef;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.login-input a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #7296a4;
+}
+
+.login-input a:hover {
+    color: #efefef;
+}

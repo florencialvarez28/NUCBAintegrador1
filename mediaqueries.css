@@ -1,0 +1,90 @@
+/* tablets */
+
+@media (max-width: 992px) {
+    .navegacion {
+        gap: 10px;
+    }
+
+    .lista-navegacion {
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        width: 90%;
+        flex-direction: column;
+        background-color: #efefef;
+        border-radius: 15px 15px 15px 15px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        align-items: center;
+        padding: 45px 30px;
+        gap: 20px;
+        z-index: 2;
+        display: none;
+    }
+
+    .lista-navegacion a {
+        font-size: 18px;
+    }
+
+    /* mostrar icon menú */
+
+    .menu-label {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+    .menu-label img {
+        height: 20px;
+        width: 25px;
+    }
+
+    #menu-toggle:checked + .lista-navegacion {
+        display: flex;
+    }
+
+    /* hero */
+
+    .hero-info {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .hero-info h1 {
+        width: 100%;
+        max-width: 500px;
+        min-width: unset;
+    }
+
+    .hero-img {
+        display: none;
+        flex-direction: column;
+    }
+
+    .about-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .about-container img {
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .about-info p {
+        width: 90%;
+    }
+
+    /* beneficios */
+
+    .cards {
+        gap: 25px;
+        flex-direction: column;
+    }
+
+    .cards h3 {
+        display: none;
+    }
+}
